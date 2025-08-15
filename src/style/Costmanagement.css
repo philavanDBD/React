@@ -1,0 +1,120 @@
+/* /* === NAVBAR STYLES === */
+
+header {
+  background-color: rgb(255, 255, 255);
+  padding: 0px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ebe9e9;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.08);
+}
+
+header h1 {
+  display: flex;
+  align-items: left;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #000000;
+}
+
+.Dev {
+  color: #28da1b;
+}
+
+.super-admin {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-size: 2rem;
+  color: #1ea514;
+  font-weight: 600;
+  cursor: pointer;
+  padding-right: 1.5rem;
+}
+
+.menu-icon {
+  font-size: 2.5rem;
+  color: #22931a;
+  cursor: pointer;
+  margin-right: 28px;
+}
+
+.drop-icon {
+  font-size: 3rem;
+  margin-left: 0.25rem;
+  display: flex;
+  align-items: center;
+}
+
+/* === COST MANAGEMENT STYLES === */
+
+.cost-container {
+  background-color: #e9e9e9;
+  padding: 20px;
+}
+
+.cost-container h2 {
+  font-size: 1.8rem;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  font-weight: bold;
+}
+
+.form-group select {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+  min-width: 240px;
+}
+
+.required {
+  color: red;
+  margin-left: 4px;
+}
+
+.table-header {
+  background-color: #d1d3d4;
+  font-weight: bold;
+  padding: 12px 16px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.table-header span {
+  width: 25%;
+  text-align: center;
+}
+
+.product-table {
+  background-color: #ffffff;
+  min-height: 330px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.save-section {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.save-btn {
+  background-color: #1ea514;
+  color: white;
+  border: none;
+  padding: 10px 30px;
+  font-size: 16px;
+  border-radius: 6px;
+  cursor: pointer;
+}

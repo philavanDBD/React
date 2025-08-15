@@ -1,23 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import LoginScreen from "./components/LoginScreen";
+import SignupScreen from "./components/SignupScreen";
+import Navbar from "./components/navigation/Navbar";
+import Overview from "./components/navigation/Overview";
+import Import from "./components/navigation/Import";
+import CostManagement from "./components/navigation/Costmanagement";
+import WithdrawalTransfer from "./components/navigation/Withdrawal_Transfer";
+import ViewHistory from "./components/navigation/View_history";
+import CycleCount from "./components/navigation/Cycle_count";
+import Warehouse from "./components/navigation/Warehouse";
+import Ching from "./components/navigation/Ching";
+import Ching1 from "./components/navigation/Ching1";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Warehouse />
     </div>
   );
 }

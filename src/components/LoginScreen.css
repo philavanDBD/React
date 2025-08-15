@@ -1,0 +1,97 @@
+/* --- Container--- */
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f6f6f6;
+  min-height: 100vh;
+  padding-top: 50px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* --- Logo --- */
+.logo {
+  display: flex;
+  align-items: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  margin-bottom: 30px;
+}
+
+.logo::before {
+  content: "UD";
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background: #7ccb00;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* --- Login --- */
+.formContainer {
+  background-color: white;
+  width: 400px;
+  border-radius: 4px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.header {
+  background-color: #7ccb00;
+  padding: 15px 30px;
+}
+
+.headerText {
+  margin: 0;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.inputGroup {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 20px 10px 30px;
+}
+
+.inputGroup label {
+  font-size: 16px;
+  font-weight: 400;
+  width: 100px;
+  color: #222;
+}
+
+.inputGroup input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f7f9fb;
+  font-size: 14px;
+}
+
+/* --- Login --- */
+.button {
+  background-color: #7ccb00;
+  color: white;
+  font-weight: bold;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 4px;
+  margin: 20px auto 25px auto;
+  display: block;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #6bb400;
+}
